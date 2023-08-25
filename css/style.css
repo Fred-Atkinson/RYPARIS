@@ -1,0 +1,289 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#navbar{
+    background-color: #e7a923;
+    width: 100%;
+    height: 1%;
+}
+#logo{
+margin: 10px 100px 0px 80px;
+height: 10%;
+width: 16%;
+}
+#links{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 45px;
+    right: 50px;
+    
+}
+#links a{
+    text-decoration: none;
+    color: black;
+    padding-right: 50px;
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.head{
+    background-image: url(/images/hero-image.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+}
+.head2{
+    background-image: url(/images/bengal-burger.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+}
+#label{
+    background-color: white;
+    width: 33%;
+    height: 7%;
+    padding: 10px;
+    font-size: 2.2vw;
+    font-weight: bold;
+    margin-top: 20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+.container1{
+    width: 100%;
+    height:600px
+}
+.container1 h1{
+    padding-top: 5%;
+    padding-left: 8%;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: bold;
+}
+.container1 p{
+    padding: 0.5% 15% 0 8%;
+    font-size: 26px;
+    font-weight: 600;
+}
+.container1 img{  
+    width: 400px;
+    object-fit: cover;
+    margin-right: 1%;
+    margin-left: 4.2%;
+}
+.container1 span{
+    margin-right: 8%;
+    margin-left: 6%;
+    padding: 2% 2% 500px 2%;
+    font-size: 17px;
+    font-family: 'Albert Sans', sans-serif;
+    display: inline-block;
+}
+.container2{
+    background-color: rgb(184, 197, 199);
+    width: 100%;
+    height: 600px;
+}
+.container2 h1{
+    padding-top: 5%;
+    padding-left: 8%;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: bold;
+}
+.container2 p{
+    padding: 0.5% 15% 0 8%;
+    font-size: 26px;
+    font-weight: 600;
+}
+.container2 img{
+    width: 300px;
+    margin: 2% 2% 2% 3%;
+}
+.eggplant{
+    height: 225px;
+    object-fit: cover;
+}
+.container2 span{
+    background-color: white;
+    margin: 0% 2% 2% 3%;
+    padding: 5px 0px 5px 0px;
+    font-size: 25px;
+    width: 300px;
+    position: relative;
+    bottom: 35px;
+    display:inline-block; 
+    text-align: center;
+    font-family: 'Albert Sans', sans-serif;
+}
+.container3{
+    width: 100%;
+    
+}
+.container3 h1{
+    padding-top: 5%;
+    padding-left: 8%;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: bold;
+}
+.container3 p{
+    padding: 0.5% 15% 0 8%;
+    font-size: 26px;
+    font-weight: 600;
+}
+.container3 img{  
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin-left: 5.5%;
+    margin-right: 1%;
+    margin-top: 50px;
+    border: #a9a9a7 solid 10px;
+}
+.container3 .guide{
+    padding-left: 55px;
+   
+}
+.container3 span{
+    margin-left: 3.5%;
+    margin-right: 1%;
+    padding: 1% 1% 7% 2%;
+    font-size: 19px;
+    font-family: 'Albert Sans', sans-serif;
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+}
+.recipehead{
+    width: 100%;
+    background-color: rgb(184, 197, 199);
+    height: 200px;
+    
+}
+.recipehead h1{
+    padding-top: 2%;
+    padding-left: 8.5%;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+}
+.bold{
+    font-weight: 1000;
+}
+.recipehead span{
+    padding: 0.5% 4% 20% 8%;
+    font-size: 26px;
+}
+.time{
+    display: flex;
+    justify-content: space-around;
+}
+#block1{
+    width: 15%;
+    margin-top: 1%;
+}
+#block1{
+    margin-bottom:10px;
+}
+#block2{
+    width: 15%;
+    margin-top: 1%;
+}
+.loner{
+    width: 25%;
+    margin-top: 1%;
+}
+.review{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 280px;
+}
+.review img{
+    width: 50px;
+    position: relative;
+    top: 21px;
+}
+.review h1{
+    font-size: 50px;
+}
+.stars{
+    display: flex;
+    justify-content: center;
+
+}
+#stars{
+    color: #9b1818;
+    padding: 1% 0.5%;
+    font-size: 25px;
+}
+#tsix{
+    position: relative;
+    top: 25px;
+}
+button{
+    width: 7%;
+    background-color: #9b1818;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+.comment{
+    width: 80%;
+    background-color: #cfcfce;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 35px;
+    padding: 0px 20px;
+    font-family: 'Albert Sans', sans-serif;
+}
+.recipe{
+    display: flex;
+    font-family: 'Albert Sans', sans-serif;
+}
+.ingrediants{
+    padding: 0 5% 3% 10%;
+    width: 30%;
+}
+.directions{
+    width: 40%;
+}
+.directions li{
+    padding: 8px;
+}
+h4{
+    font-weight: 1000;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+iframe{
+    display: flex;
+    margin: 10% 25%;
+    height: 400px;
+    width: 50%;
+}
+footer{
+    background-color: #e7a923;
+    width: 100%;
+    height: 113.6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer span{
+    margin-right: 65%;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}

@@ -74,6 +74,7 @@ width: 16%;
 }
 .container1 img{  
     width: 400px;
+    height: 250px;
     object-fit: cover;
     margin-right: 1%;
     margin-left: 4.2%;
@@ -264,6 +265,7 @@ h4{
     font-weight: 1000;
     font-size: 18px;
     margin-bottom: 0;
+    margin-left: 5%;
 }
 iframe{
     display: flex;
